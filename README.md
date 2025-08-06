@@ -1,7 +1,7 @@
 ## uvのインストール
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-"C:\Users\bando\.local\bin"をpathに追加
+"C:\Users\<ユーザー名>\.local\bin"をpathに追加
 ```
 
 ## uvでプロジェクトを作成
