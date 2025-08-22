@@ -16,13 +16,26 @@ pip install uv
 ```bash
 uv init uv_project
 ```
+- pythonバージョンを指定して仮想環境作成
+```bash
+uv python pin 3.10
+uv venv
+```
 - 仮想環境の作成
 ```bash
 uv venv
 ```
+- パッケージを追加
+```bash
+uv add opencv-python
+```
+- パッケージを削除
+```bash
+uv remove opencv-python
+```
 - pythonを実行
 ```bash
-uv run python main.py #pythonを実行
+uv run python main.py 
 ```
 
 ## gitにpush
